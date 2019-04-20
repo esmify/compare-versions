@@ -21,8 +21,8 @@
   ],
   "scripts": {
     "test": "nyc mocha",
-    "build": "pack build"
-    "prerelease": "npn run build"
+    "build": "pack build",
+    "prerelease": "npm run build",
     "release": "pack publish"
   },
   "main": "index.js",
