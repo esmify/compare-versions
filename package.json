@@ -1,5 +1,5 @@
 {
-  "name": "compare-versions",
+  "name": "@esmify/compare-versions",
   "version": "3.4.0",
   "description": "Compare semver version strings to find greater, equal or lesser.",
   "repository": {
