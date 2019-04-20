@@ -4,14 +4,14 @@
   "description": "Compare semver version strings to find greater, equal or lesser.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/omichelsen/compare-versions.git"
+    "url": "git+https://github.com/esmify/compare-versions.git"
   },
   "author": "Ole Michelsen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/omichelsen/compare-versions/issues"
+    "url": "https://github.com/esmify/compare-versions/issues"
   },
-  "homepage": "https://github.com/omichelsen/compare-versions#readme",
+  "homepage": "https://github.com/esmify/compare-versions#readme",
   "keywords": [
     "semver",
     "version",
