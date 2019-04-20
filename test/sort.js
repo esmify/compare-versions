@@ -1,5 +1,5 @@
-var assert = require('assert');
-var compare = require('..');
+import assert from 'assert';
+import compare from '../src';
 
 describe('sort versions', function () {
   it('should sort versions', function () {

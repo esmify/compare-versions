@@ -20,7 +20,7 @@
     "node"
   ],
   "scripts": {
-    "test": "nyc mocha",
+    "test": "nyc mocha --require @babel/register",
     "build": "pack build",
     "prerelease": "npm run build",
     "release": "pack publish"
@@ -52,6 +52,9 @@
     "test": "test"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.3",
+    "@babel/register": "^7.4.0",
     "@pika/pack": "^0.3.7",
     "@pika/plugin-build-node": "^0.3.15",
     "@pika/plugin-build-types": "^0.3.16",

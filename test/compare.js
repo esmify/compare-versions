@@ -1,5 +1,5 @@
-const assert = require('assert');
-const compare = require('..');
+import assert from 'assert';
+import compare from '../src';
 const cmp = {
   '1':  '>',
   '0':  '=',
